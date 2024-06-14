@@ -1,0 +1,27 @@
+.hero {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-auto-flow: column;
+    grid-gap: 1rem;
+    padding: 2rem;
+    background-color: black;
+    font-family: "nova round";
+    color: white;
+}
+
+.hero .hero-para p{
+    padding: 1rem;
+    border: 4px solid gold;
+}
+
+.hero .hero-image img {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 540px) {
+    .hero {
+        grid-auto-flow: row;
+    }
+}

@@ -1,0 +1,16 @@
+main {
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 215, 0, 0.2); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: gold; 
+    border-radius: 10px;
+}

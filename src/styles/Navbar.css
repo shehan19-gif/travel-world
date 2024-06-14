@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Nova+Round&display=swap');
+
+.Navbar {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 1rem;
+}
+
+.Navbar .icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar .icons-wrapper h2{
+    flex: 2;
+    font-size: 2rem;
+    letter-spacing: .25rem;
+    font-family: hurricane;
+    display: grid;
+    place-content: center;
+}
+
+.Navbar .icons-wrapper .ham-function {
+    width: 40px;
+    height: 40px;
+    padding: 16px;
+    border: 2px solid white;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+.Navbar .icons-wrapper .hamburger-close {
+    display: none;
+}
+
+.Navbar .icons-wrapper .hamburger-show {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.Navbar .icons-wrapper .hamburger-show .line{
+    width: 24px;
+    height: 4px;
+    background-color: white;
+}
+
+.Navbar .nav-links-wrapper-show ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    list-style-type: none;
+    font-family: "nova round";
+}
+
+.Navbar .nav-links-wrapper-show {
+    display: block;
+    margin-top: 1rem;
+}
+
+.Navbar .nav-links-wrapper-close {
+    display: none;
+}
+
+.Navbar .nav-links-wrapper-show ul li {
+    cursor: pointer;
+}
+
+.Navbar .nav-links-wrapper-show ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.Navbar .nav-links-wrapper-show ul li a:hover {
+    color: gold;
+}
+
+.Navbar .x-show {
+    font-size: 24px;
+    font-family: "nova round";
+}
+
+.Navbar .x-close {
+    display: none;
+}
+
+.Navbar #translator select {
+    appearance: none;
+    border: 2px solid gold;
+    outline: none;
+    padding: 0.25rem 1rem;
+    font-family: 'nova round';
+    background-color: black;
+    color: white;
+}
+
+.Navbar #translator select option {
+    color: gold;
+}
+
+@media screen and (max-width: 540px) {
+    .Navbar .nav-links-wrapper-show ul {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        background-color: rgba(23, 23, 23, 0.5);
+    }
+}
