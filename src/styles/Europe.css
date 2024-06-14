@@ -231,7 +231,7 @@ iframe.iframe-data {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 431px) {
     .europe .europe-flags {
         grid-template-columns: repeat(3, 1fr);
     }
