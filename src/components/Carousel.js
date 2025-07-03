@@ -1,5 +1,5 @@
 import '../styles/Carousel.css';
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import images from './carousel_utils/Utils';
 import Card from './carousel_utils/Card';
@@ -33,6 +33,10 @@ const Carousel = () => {
     return () => clearTimeout(time);
   });
 
+  setCounter(0);
+  carosImage = "hi";
+  changer = false;
+
   function imageSelect(e) {
     setChanger(Number(e.target.id));
     element.current = Number(e.target.id);
@@ -47,11 +51,11 @@ const Carousel = () => {
                 <Card data={imgData} />
             </div>
             <div className='buttons-container' onClick={(e) => imageSelect(e)}>
-              <a id="0">1</a>
-              <a id="1">2</a>
-              <a id="2">3</a>
-              <a id="3">4</a>
-              <a id="4">5</a>
+              <a id="0" href='#'>1</a>
+              <a id="1" href='#'>2</a>
+              <a id="2" href='#'>3</a>
+              <a id="3" href='#'>4</a>
+              <a id="4" href='#'>5</a>
             </div>
         </div>
     </div>
