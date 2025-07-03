@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shehan19-gif/travel-world/static/css/main.8189ca6b.css",
-    "main.js": "/shehan19-gif/travel-world/static/js/main.c6d197a7.js",
+    "main.js": "/shehan19-gif/travel-world/static/js/main.b27f74a1.js",
     "static/media/travel-01.jpg": "/shehan19-gif/travel-world/static/media/travel-01.edb466303322bdafde9c.jpg",
     "static/media/travel-05.jpg": "/shehan19-gif/travel-world/static/media/travel-05.c2e53291918333cb1fca.jpg",
     "static/media/travel-03.jpg": "/shehan19-gif/travel-world/static/media/travel-03.c2e052d63f5a740e239e.jpg",
@@ -10,10 +10,10 @@
     "static/media/travel-02.jpg": "/shehan19-gif/travel-world/static/media/travel-02.ebff98ee4e28ec7c77de.jpg",
     "index.html": "/shehan19-gif/travel-world/index.html",
     "main.8189ca6b.css.map": "/shehan19-gif/travel-world/static/css/main.8189ca6b.css.map",
-    "main.c6d197a7.js.map": "/shehan19-gif/travel-world/static/js/main.c6d197a7.js.map"
+    "main.b27f74a1.js.map": "/shehan19-gif/travel-world/static/js/main.b27f74a1.js.map"
   },
   "entrypoints": [
     "static/css/main.8189ca6b.css",
-    "static/js/main.c6d197a7.js"
+    "static/js/main.b27f74a1.js"
   ]
 }
