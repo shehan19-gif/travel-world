@@ -33,10 +33,6 @@ const Carousel = () => {
     return () => clearTimeout(time);
   });
 
-  setCounter(0);
-  carosImage = "hi";
-  changer = false;
-
   function imageSelect(e) {
     setChanger(Number(e.target.id));
     element.current = Number(e.target.id);
